@@ -8,7 +8,8 @@ Uniform Cost Search (UCS) is used to find the compute the optimal path between t
 - Choose a starting location and an end tag, and implement the **getStanfordShortestPathProblem** function accordingly.
 - Run **python grader.py 1b-custom** to generate path.json.
 - Run **python visualization.py**.
-A sample of the results is shown below:\n
+A sample of the results is shown below:
+
 ![image](https://github.com/AhmedAbdelaal2001/Route-Planning/assets/101427765/1b6c20a2-942d-46a5-84b5-2a43ac0560c6)
 
 
