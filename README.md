@@ -20,6 +20,12 @@ The state definition is adjusted to allow for unordered waypoints, which can be 
 A sample of the results is shown below:
 ![image](https://github.com/AhmedAbdelaal2001/Route-Planning/assets/101427765/3e986dfd-5143-4129-8f45-ba3e6a6ada61)
 
+## Speeding up With A*
+Two heuristics are implemented for use in the A* algorithm to speed up the process and allow for extremely quick queries. The heuristics are as follows:
+- **StraightLineHeuristic** computes the straight line distance between the startTag and closest location having the endTag.
+- **NoWaypointsHeuristic** computes the shortest path while ignoring the intermediary waypoints, akin to the first part.
+The **NoWaypointsHeuristic**, in particular, seems to speed up the computation significantly.
+
 
 
 
