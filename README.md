@@ -1,6 +1,6 @@
 # Route-Planning
 ## Description
-Creating a route planning system is akin to Google Maps; the objective is to find the optimal path between two locations, and to allow for more complex queries. For instance, not only can you find the shortest path from the Psychiatry Parking Lot to the Stadium, but you can also ask to stop by a bookstore and a restaurant along the way, allowing for some very interesting results. Answers can be found in **submission.py**
+Creating a route planning system is akin to what you see in Google Maps; the objective is to find the optimal path between two locations, and to allow for more complex queries. For instance, not only can you find the shortest path from the Psychiatry Parking Lot to the Stadium, but you can also ask to stop by a bookstore and a restaurant along the way, allowing for some very interesting results. Answers can be found in **submission.py**
 
 ## Shortest Paths
 Uniform Cost Search (UCS) is used to find the compute the optimal path between the start and end tags. The realization of this problem can be found in the **ShortestPathProblem** class. To see the results, follow the following procedure:
