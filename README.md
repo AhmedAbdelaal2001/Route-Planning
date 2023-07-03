@@ -3,7 +3,7 @@
 A route planning system is akin to what you see in Google Maps; the objective is to find the optimal path between two locations, and to allow for more complex queries. For instance, not only can you find the shortest path from the Psychiatry Parking Lot to the Stadium, but you can also ask to stop by a bookstore and a restaurant along the way, allowing for some very interesting results. Answers can be found in **submission.py**
 
 ## Shortest Paths
-Uniform Cost Search (UCS) is used to find the compute the optimal path between the start and end tags. The realization of this problem can be found in the **ShortestPathProblem** class. To see the results, follow the following procedure:
+Uniform Cost Search (UCS) is used to compute the optimal path between the start and end tags. The realization of this problem can be found in the **ShortestPathProblem** class. To see the results, follow the following procedure:
 - Run **python mapUtil.py > readableStanfordMap.txt** to generate a text file of the possible locations and their tags.
 - Choose a starting location and an end tag, and implement the **getStanfordShortestPathProblem** function accordingly.
 - Run **python grader.py 1b-custom** to generate path.json.
@@ -14,6 +14,7 @@ A sample of the results is shown below:
 
 ## Unordered Waypoints
 The state definition is adjusted to allow for unordered waypoints, which can be seen in the **WaypointsShortestPathProblem** class. To see the results, follow the following procedure:
+- Run **python mapUtil.py > readableStanfordMap.txt** to generate a text file of the possible locations and their tags.
 - Choose a starting location, an end tag, and a set of intermediary stops, then implement the **getStanfordWaypointsShortestPathProblem** function accordingly.
 - Run **python grader.py 2c-custom** to generate path.json.
 - Run **python visualization.py**.
